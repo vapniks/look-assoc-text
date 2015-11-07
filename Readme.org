@@ -1,0 +1,21 @@
+* Possible Dependencies
+
+look-mode cl
+
+* Commentary
+
+Bitcoin donations gratefully accepted :: 1ArFina3Mi8UDghjarGqATeBgXRDWrsmzo
+
+* Installation
+
+Put look-assoc-text.el in a directory in your load-path, e.g. ~/.emacs.d/
+You can add a directory to your load-path with the following line in ~/.emacs
+(add-to-list 'load-path (expand-file-name "~/elisp"))
+where ~/elisp is the directory you want to add 
+(you don't need to do this for ~/.emacs.d - it's added by default).
+
+Add the following to your ~/.emacs startup file.
+
+(require 'look-assoc-text)
+
+
